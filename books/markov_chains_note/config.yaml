@@ -1,0 +1,28 @@
+title: "マルコフ連鎖勉強ノート"
+summary: |-
+  # このBookについて
+  - マルコフ連鎖の個人的な勉強ノートです
+  - 教科書は Stachurski et al. (2024) を使用しています
+  - ゆっくり更新します
+
+  # ノーテーション
+  https://zenn.dev/nagayu71/articles/a2c5b290e8b11e#%E6%95%B0%E5%AD%A6%E8%A8%98%E6%B3%95
+
+  # 誤字や間違いなどのご指摘は以下からコメントをお願いします
+  https://zenn.dev/nagayu71/scraps/ea6ac477d00177
+
+  # 参考文献
+  John Stachurski and Thomas J. Sargent. "Economic Networks: Theory and Computation" (QuantEcon, 2024). 
+  URL: https://networks.quantecon.org/.
+
+topics:
+  - "math"
+  - "勉強ノート"
+  - "マルコフ連鎖"
+  - "確率過程"
+  - "計量経済学"
+published: true
+price: 0 
+chapters:
+  - introduction
+  - markov_models
