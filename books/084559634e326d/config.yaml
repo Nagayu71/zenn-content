@@ -22,6 +22,7 @@ topics:
   - "確率過程"
   - "計量経済学"
 published: true
+allow_override: true
 price: 0
 toc_depth: 3
 chapters:

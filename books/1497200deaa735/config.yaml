@@ -6,6 +6,7 @@ summary: |-
   自分がネットワーク科学を学び始めたときにあったら嬉しかったなと思えるノートを作っていくつもりです。
 topics: []
 published: false
+allow_override: true
 price: 0
 toc_depth: 2
 chapters:
