@@ -21,8 +21,9 @@ topics:
   - "マルコフ連鎖"
   - "確率過程"
   - "計量経済学"
-published: true
+published: false
 price: 0 
 chapters:
   - introduction
   - markov_models
+  - transition_matrices
