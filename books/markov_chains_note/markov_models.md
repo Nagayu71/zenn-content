@@ -13,7 +13,7 @@ $$
 ただし，$\mathscr{O}(x)$は頂点$x$の[出近傍](https://zenn.dev/nagayu71/articles/61e5f6c2cd55a0#%E3%83%8E%E3%83%BC%E3%83%89%E3%81%AE%E7%89%B9%E5%BE%B4%E3%82%92%E8%A1%A8%E3%81%99%E7%94%A8%E8%AA%9E)である．
 頂点集合$S$はモデルの**状態空間** (state space) とも呼ばれ，頂点のことを**状態** (states) と言う．
 
-![](/images/markov_chains_note/weighted_digraph.png =350x)
+![weighted_digraph.png](/images/markov_chains_note/weighted_digraph.png =350x)
 *図 1.15：有限マルコフモデルの例
 出所）Stachurski et al. (2022)*
 
