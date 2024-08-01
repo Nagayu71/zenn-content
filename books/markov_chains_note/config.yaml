@@ -28,3 +28,4 @@ chapters:
   - markov_models
   - transition_matrices
   - markov_chains
+  - simulation
