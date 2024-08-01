@@ -30,3 +30,4 @@ chapters:
   - markov_chains
   - simulation
   - higher_order_transition_matrices
+  - distribution_dynamics
