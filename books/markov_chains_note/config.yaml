@@ -31,3 +31,4 @@ chapters:
   - simulation
   - higher_order_transition_matrices
   - distribution_dynamics
+  - updating_marginal_distributions
