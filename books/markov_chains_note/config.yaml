@@ -29,3 +29,4 @@ chapters:
   - transition_matrices
   - markov_chains
   - simulation
+  - higher_order_transition_matrices
