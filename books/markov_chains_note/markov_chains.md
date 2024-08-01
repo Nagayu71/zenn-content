@@ -46,7 +46,7 @@ $$
 
 # マルコフ連鎖をアルゴリズムとして理解する
 
-- 確率行列$P$と初期条件$\psi_0 \in$ [$\mathscr{D}(S)$](https://zenn.dev/nagayu71/books/084559634e326d/viewer/17ea45#%E9%81%B7%E7%A7%BB%E8%A1%8C%E5%88%97%E3%81%A8%E5%88%86%E5%B8%83%E3%81%AE%E9%9B%86%E5%90%88-(%C2%A71.3.1.1))を用意
+- 確率行列$P$と初期条件$\psi_0 \in$ [$\mathscr{D}(S)$](https://zenn.dev/nagayu71/books/markov_chains_note/viewer/transition_matrices#%E9%81%B7%E7%A7%BB%E8%A1%8C%E5%88%97%E3%81%A8%E5%88%86%E5%B8%83%E3%81%AE%E9%9B%86%E5%90%88-(%C2%A71.3.1.1))を用意
 - $\textbf{Algorithm 3}$に従って列$(X_t)$を生成
 - 得られた列が，$\psi_0$を初期条件とする$P$-Markovである
 
