@@ -1,6 +1,5 @@
 ---
 title: "4.1.1 Markov Models"
-free: false
 ---
 
 # 定義
