@@ -10,4 +10,6 @@ $$
 \psi_t \coloneqq \mathbb{P}\{X_t = \cdot\} = ~\text{the distribution of }X_t.
 $$
 
-ベクトル$\psi_t$を$X_t$の**周辺分布** (marginal distribution) と言う．状態の列$(X_t)$がランダムである一方で，その分布列$(\psi_t)$は**決定論的なダイナミクス**に従う．
+ベクトル$\psi_t$を$X_t$の**周辺分布** (marginal distribution) と言う．
+
+状態の列$(X_t)$がランダムである一方で，その分布列$(\psi_t)$は**決定論的なダイナミクス**に従う．
