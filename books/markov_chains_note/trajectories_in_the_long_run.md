@@ -1,7 +1,5 @@
 ---
 title: "4.1.2.2 Trajectories in the Long Run"
-published: true
-published_at: 2024-08-04 09:00
 ---
 
 # 分布の軌跡
@@ -12,13 +10,13 @@ published_at: 2024-08-04 09:00
 *図 4.6：$\psi_0=(0,0,1)$を初期値とする分布の軌跡
 出所）Stachurski et al. (2024)*
 
-図4.6の赤紫色の点列は，状態空間$S=\{1,2,3\}$と遷移行列[$P_a$](https://zenn.dev/nagayu71/books/markov_chains_note/viewer/transition_matrices#%E9%81%B7%E7%A7%BB%E8%A1%8C%E5%88%97)を持つ有限マルコフモデルにおける，$\psi_0=(0,0,1)$を初期条件としたときの周辺分布$(\psi P_a^t)$の軌跡$(t=0,\ldots,20)$を表している．青い三角形は$\mathbb{R}_{+}^3$上の単位単体$\{\psi \in \mathbb{R}^3 \mid \psi \geq \bm{0}, \psi\bm{1}=1\}$であり，$\mathscr{D}(S)$を描画したものである．
+図4.6の赤紫色の点列は，状態空間$S=\{1,2,3\}$と遷移行列[$P_a$](https://zenn.dev/nagayu71/books/markov_chains_note/viewer/transition_matrices#%E9%81%B7%E7%A7%BB%E8%A1%8C%E5%88%97)を持つ有限マルコフモデルにおける，$\psi_0=(0,0,1)$を初期条件としたときの周辺分布$(\psi_0 P_a^t)$の軌跡$(t=0,\ldots,20)$を表している．青い三角形は$\mathbb{R}_{+}^3$上の単位単体$\{\psi \in \mathbb{R}^3 \mid \psi \geq \bm{0}, \psi\bm{1}=1\}$であり，$\mathscr{D}(S)$を描画したものである．
 
 ![](/images/markov_chains_note/trajectory4-7.png =400x)
 *図 4.7：$\psi_0=(0,1/2,1/2)$を初期値とする分布の軌跡
 出所）Stachurski et al. (2024)*
 
-初期値を変えると軌跡はどのように変化するだろうか．図4.7は$\psi_0=(0,1/2,1/2)$を初期条件としたときの$(\psi P_a^t)$の軌跡$(t=0,\ldots,20)$を表している．
+初期値を変えると軌跡はどのように変化するだろうか．図4.7は$\psi_0=(0,1/2,1/2)$を初期条件としたときの$(\psi_0 P_a^t)$の軌跡$(t=0,\ldots,20)$を表している．
 
 図を見る限り，どちらの初期値でも分布列は収束しているように思える．そしてその直感は正しい．図中の黒点は分布列の極限であり，$P_a$の一意の定常分布（$\psi P_a = \psi$を満たす$\psi^*$）である．つまり，初期条件$\psi\in\mathscr{D}(S)$によらず，$(\psi P_a^t)$は必ず$\psi^*$に収束する．この性質は$P_a$の**連結性** (connectivity) と**非周期性** (aperiodicity) から保証される．
 
