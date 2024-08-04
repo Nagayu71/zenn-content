@@ -4,7 +4,7 @@ title: "4.1.3.1 Stationary Distributions"
 
 ## 4.1.3 Stationarity
 
-このセクションでは，定常分布とその性質について議論する．以下の議論で確認するが，定常分布は周辺分布の時間発展における定常状態とみなすことができる．なお，後のセクションでエルゴード性について学ぶと，定常分布にもう一つの重要な解釈を与えることができる．
+このセクションでは，定常分布とその性質について議論する．以下で確認するが，定常分布は周辺分布の時間発展における定常状態とみなすことができる．なお，後のセクションでエルゴード性について学ぶと，定常分布にもう一つの重要な解釈を与えることができる．
 
 ## 4.1.3.1  Stationary Distributions
 
@@ -12,13 +12,13 @@ title: "4.1.3.1 Stationary Distributions"
 
 $\S\ 1.3.1.3$ で学んだ通り，$P$が確率行列で$\psi \in \mathbb{R}_+^n$が$\psi\bm{1} = 1$かつ$\psi P = \psi$を満たす行ベクトルであるとき，$\psi$は確率行列$P$について**定常的** (stationary) であるという．
 
-状態空間$S$と遷移行列$P$を持つ有限マルコフモデル$\mathscr{M}$を考える．上と同じことをマルコフ連鎖の表記で書くと，確率分布$\psi^* \in \mathscr{D}(S)$は，$\psi^* = \psi^* P$，すなわち
+状態空間$S$と遷移行列$P$を持つ有限マルコフモデル$\mathscr{M}$を考える．上と同じことをマルコフ連鎖の表記で書くと，$\psi^* = \psi^* P$，すなわち
 
 $$
 \psi^*(y) = \sum_{x \in S} P(x,y)\psi^*(x) \quad \text{for all}\ y \in S
 $$
 
-が成り立つとき，有限マルコフモデル$\mathscr{M}$について定常的 (stationary) である．なお，$\psi^*$は分布を更新する写像$\psi \mapsto \psi P$（cf., 差分方程式[$(4.13)$](https://zenn.dev/nagayu71/books/markov_chains_note/viewer/updating_marginal_distributions#forward-equation-and-forward-operator)）の不動点(fixed point)として理解できる．
+が成り立つとき，確率分布$\psi^* \in \mathscr{D}(S)$は有限マルコフモデル$\mathscr{M}$について定常的 (stationary) である．なお，$\psi^*$は分布を更新する写像$\psi \mapsto \psi P$（cf., 差分方程式[$(4.13)$](https://zenn.dev/nagayu71/books/markov_chains_note/viewer/updating_marginal_distributions#forward-equation-and-forward-operator)）の不動点(fixed point)として理解できる．
 
 :::details cf) 不動点 (§6.1.1.6)
 任意の集合$S$上の関数$G: S\to S$を**自己写像** (self-map) という．関数が自己写像であるときは，$G$による$x$の像を$G(x)$ではなく$Gx$と表記するのが一般的である．$S$上の自己写像$G$に対して，$Gx = x$となる$x \in S$を**不動点** (fixed point) という．
