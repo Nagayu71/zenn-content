@@ -24,9 +24,9 @@ $\mathscr{M}$が有限マルコフモデルであれば，制約$(4.1)$式は有
 行列$P=(p_{ij})\in\Bbb{M}^{n\times n}$が次の条件を満たすとき，$P$を**確率行列** (stochastic matrix) と言う．
 
 $$
-P \geqslant \bm{0} \quad \text{and} \quad P\bm{1} = \bm{1}
+P \geqslant O \quad \text{and} \quad P\bm{1} = \bm{1}
 $$
-ただし，$P \geqslant \bm{0}$は$P$が非負行列であることを表し，$\bm{1} \in \R^n$は全ての要素が$1$の列ベクトルである．
+ただし，$P \geqslant O$は$P$が非負行列であることを表し，$\bm{1} \in \R^n$は全ての要素が$1$の列ベクトルである．
 :::
 
 例えば図1.15の重み付き有向グラフの隣接行列は
