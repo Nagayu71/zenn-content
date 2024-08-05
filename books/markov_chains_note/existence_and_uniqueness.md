@@ -6,8 +6,10 @@ title: "4.1.3.2 Existence and Uniqueness"
 
 [ペロン＝フロベニウスの定理](https://zenn.dev/nagayu71/articles/dc49767d388f98#%E3%83%9A%E3%83%AD%E3%83%B3%EF%BC%9D%E3%83%95%E3%83%AD%E3%83%99%E3%83%8B%E3%82%A6%E3%82%B9%E3%81%AE%E5%AE%9A%E7%90%86)から，直ちに次の結果を得る．
 
+:::message
 $\textbf{Theorem 4.1.1}$ $\text{(Existence and Uniqueness of Stationary Distributions).}$
 どんな有限マルコフモデル$\mathscr{M}=(S,E,p)$も，少なくとも一つの定常分布$\psi^* \in \mathscr{D}(S)$を持つ．さらに，有向グラフ$(S,E)$が[強連結](https://zenn.dev/nagayu71/articles/61e5f6c2cd55a0#%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF%E3%81%AE%E6%A7%8B%E9%80%A0%E3%82%92%E8%A1%A8%E3%81%99%E7%94%A8%E8%AA%9E)であるとき，$\psi^*$は$S$上の一意かつ$\psi^* \gg \bm{0}$ (everywhere positive)な定常分布である．
+:::
 
 $\text{Proof.}$　$\mathscr{M}$を有限マルコフモデルとする．その隣接行列$P$は確率行列なので，$\S1.3.1.3$ の$\text{Exercise 1.3.7}$より定常分布の存在が示される．また，$\text{Theorem 1.4.3}$より$\mathscr{M}$の強連結性と$P$が既約であることは同値である．$P$が既約であるとき，ペロン＝フロベニウスの定理から定常分布の一意性と，どの状態確率も正であることが保証される．$\square$
 
