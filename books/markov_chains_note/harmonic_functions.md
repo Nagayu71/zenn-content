@@ -22,7 +22,7 @@ $$
 
 と $Ph(x)$ が $x$ を所与としたときの $h(\cdot)$ の条件付き期待値を表すからである．
 
-関数 $h \in \mathbb{R}^S$ が $Ph(x) = h(x)\ \forall x \in S$ を満たすとき，$h$ は $P$-$\textbf{harmonic}$ であるという．したがって，$P$-harmonic 関数は条件付き期待値演算子 $h \mapsto Ph$ の不動点である．
+関数 $h \in \mathbb{R}^S$ が $Ph(x) = h(x)\ \forall x \in S$ を満たすとき，$h$ は $P$-$\textbf{harmonic}$ であるという．したがって，$P$-harmonic 関数は条件付き期待値演算子 $h \mapsto Ph$ の[不動点](https://zenn.dev/nagayu71/books/markov_chains_note/viewer/stationary_distributions#%E4%B8%8D%E5%8B%95%E7%82%B9%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E5%AE%9A%E5%B8%B8%E5%88%86%E5%B8%83)である．
 
 関数 $h$ が $P$-harmonic で $(X_t)$ が [$P$-Markov](https://zenn.dev/nagayu71/books/markov_chains_note/viewer/markov_chains#%E3%83%9E%E3%83%AB%E3%82%B3%E3%83%95%E9%80%A3%E9%8E%96%E3%81%AE%E5%AE%9A%E7%BE%A9)であるとき，
 
@@ -42,7 +42,7 @@ $$
 1 \quad \text{if } x \in A, \\
 0 \quad \text{if } x \in A^c
 \end{cases}
-= \bm{1}_A,
+= \bm{1}_A(x),
 $$
 
 $$
@@ -51,7 +51,7 @@ $$
 1 \quad \text{if } x \in A^c, \\
 0 \quad \text{if } x \in A
 \end{cases}
-= \bm{1}_{A^c}.
+= \bm{1}_{A^c}(x).
 $$
 
 ## EXERCISE 4.2.1.
